@@ -1,2 +1,2 @@
-# i18n-request
-Horizontal review requests are made via issues in this repo, and tracked by our radar.
+# i13 https://jcmarcfloress.blogspot.com
+I would like to design a better network for construction workers off my hometonw cause we dont have union or sindicate about pricing no benefits no insuarance and a lot more problems a lot off workers claim to be the best workers but when i inspect their quality is not 100% perfect i would like to teach them the basic off instalation or the basics off measuments in inches not by metters i dont know it how i will teach them 
