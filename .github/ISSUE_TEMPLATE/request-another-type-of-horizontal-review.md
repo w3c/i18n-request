@@ -1,5 +1,5 @@
 ---
-name: Request review for another type of spec
+name: Request review for another type of spec OLD
 about: If your spec doesn't fit one of the other options, use this.
 title: Document_name 2020-xx-xx > 2020-xx-xx
 labels: REVIEW REQUESTED, WD, pending
