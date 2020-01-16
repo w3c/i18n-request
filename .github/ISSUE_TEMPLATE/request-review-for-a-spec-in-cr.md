@@ -1,11 +1,11 @@
 ---
 name: Request review for a spec in CR
 about: If your spec is already in CR, use this form.
-title: Document_name > Deadline_eg_2020-03-24
+title: Document_name 2020-XX-XX > 2020-XX-XX
 labels: CR, REVIEW REQUESTED, pending
-assignees: aphillips
 
 ---
+In the issue title add the document name followed by the date of this request, then the date of your proposed deadline for comments.
 
 - name of spec to be reviewed: 
 - URL of spec: 
