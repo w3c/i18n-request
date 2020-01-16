@@ -3,11 +3,10 @@ name: Request review of a FPWD
 about: Use this if you are approaching or have just passed FPWD.
 title: Document_name
 labels: FPWD, REVIEW REQUESTED, pending
-assignees: aphillips
 
 ---
 
-Note that the i18n WG prefers groups to run a self-review around the time of FPWD. Then let us know when you have done it. Get [advice on how to do that](https://www.w3.org/International/review-request#selfreview).
+Note that the i18n WG prefers groups to run a self-review around the time of FPWD. Then let us know when you have done it. Get advice on how to do that at https://www.w3.org/International/review-request#selfreview.
 
 If you still want us to review your spec, please provide the information below.
 
