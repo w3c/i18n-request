@@ -1,20 +1,19 @@
 ---
 name: Request review for a spec in CR
 about: If your spec is already in CR, use this form.
-title: Document_name 2020-XX-XX > 2020-XX-XX
+title: Document_name 2020-xx-xx > 2020-xx-xx
 labels: CR, REVIEW REQUESTED, pending
 
 ---
-In the issue title add the document name followed by the date of this request, then the date of your proposed deadline for comments.
+In the issue title above add the document name followed by the date of this request, then the date of your proposed deadline for comments.
 
 - name of spec to be reviewed: 
 - URL of spec: 
 
-- pointer to any explainer for the spec: 
-- any expected transition looming? date and type: 
-- when would you like a reply from i18n WG? 
-- information about what has changed since a previous review: 
-- information arising from any self-review): 
-- where (and possibly how) to file issues arising: 
+- What and when is your next expected transition? 
+- What has changed since any previous review? 
+- Any information arising from a self-review? 
+- Where and how to file issues arising? 
+- Pointer to any explainer for the spec? 
 
 Other comments:
