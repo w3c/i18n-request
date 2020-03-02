@@ -12,4 +12,7 @@ We have conducted a self-review of our spec [SPEC_NAME_HERE](URL_GOES_HERE), and
 
 Please check our findings.
 
+- Do you need a reply by a particular date? 
+
+
 Other comments:
