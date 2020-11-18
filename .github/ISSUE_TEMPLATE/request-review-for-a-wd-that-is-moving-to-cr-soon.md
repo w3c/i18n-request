@@ -14,7 +14,7 @@ In the issue title above add the document name followed by the date of this requ
 
 - What and when is your next expected transition? 
 - What has changed since any previous review? 
-- Any information arising from a self-review? 
+- Please point to the results of your own [self-review](https://w3c.github.io/i18n-drafts/techniques/shortchecklist)
 - Where and how to file issues arising? 
 - Pointer to any explainer for the spec? 
 
