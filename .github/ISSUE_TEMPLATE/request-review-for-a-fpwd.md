@@ -17,7 +17,7 @@ In the issue title above add the document name followed by the date of this requ
 - URL of spec: 
 
 - Do you need a reply by a particular date? 
-- Any information arising from a self-review? 
+- Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist) 
 - Where and how to file issues arising? 
 - Pointer to any explainer for the spec? 
 
