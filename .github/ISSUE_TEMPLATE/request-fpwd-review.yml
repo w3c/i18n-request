@@ -13,7 +13,7 @@ body:
   - type: input
     id: spec-name
     attributes:
-      label: Name of specification
+      label: Name of your specification
       description: Copy and paste title of your specification
       placeholder: Name of specification
     validations:
@@ -21,7 +21,7 @@ body:
   - type: input
     id: spec-url
     attributes:
-      label: URL of specification
+      label: URL of your specification
       placeholder: https://www.w3.org/TR/...
     validations:
       required: true
@@ -30,6 +30,17 @@ body:
     attributes:
       label: Do you need a reply by a particular date?
       description: If any date, type here
+  - type: input
+    id: repo-issue
+    attributes:
+      label: URL for the issue
+      placeholder: https://github.com/w3c/..../issues
+    validations:
+      required: true
+  - type: input
+    id: self
+    attributes:
+      label: Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist).
   - type: textarea
     attributes:
       label: Other comments
