@@ -9,6 +9,7 @@ body:
       value: |
         Note that the i18n WG prefers groups to run a self-review around the time of FPWD. Let us know when you have done it. Get advice on how to do that at XYZ
         If you still want us to review your spec, please provide the information below.
+        In the issue title above add the document name followed by the date of this request.
   - type: input
     id: spec-name
     attributes:
@@ -22,13 +23,6 @@ body:
     attributes:
       label: URL of specification
       placeholder: https://www.w3.org/TR/...
-    validations:
-      required: true
-  - type: input
-    id: repo-issue
-    attributes:
-      label: URL for the issue
-      placeholder: https://github.com/w3c/..../issues
     validations:
       required: true
   - type: input
