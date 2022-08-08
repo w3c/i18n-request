@@ -1,6 +1,6 @@
-name: "(test) Request a check of a self-review"
-description: If you have completed a self-review, use this form to request that i18n check it out.
-title: Spec_name 2020-mm-dd
+name: "Request review of a FPWD"
+description: Use this if you are approaching or have just passed FPWD.
+title: Document_name    2020-mm-dd
 labels: [ "REVIEW REQUESTED", SR, pending ]
 assignees: [ ]
 body:
