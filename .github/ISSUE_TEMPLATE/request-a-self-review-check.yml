@@ -1,6 +1,6 @@
 name: "Request a check of a self-review by the i18n WG"
 description: If you have completed a self-review, use this form to ask the i18n WG to check it out.
-title: Spec_name 2020-mm-dd
+title: Spec_name 2022-mm-dd
 labels: [ "REVIEW REQUESTED", SR, pending ]
 assignees: [ ]
 body:
