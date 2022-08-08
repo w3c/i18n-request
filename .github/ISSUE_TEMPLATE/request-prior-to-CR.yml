@@ -17,6 +17,7 @@ body:
       placeholder: Name of specification
     validations:
       required: true
+
   - type: input
     id: spec-url
     attributes:
