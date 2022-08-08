@@ -31,19 +31,10 @@ body:
       label: Do you need a reply by a particular date?
       description: If any date, type here
   - type: input
-    id: repo-issue
-    attributes:
-      label: URL for the issue
-      placeholder: https://github.com/w3c/..../issues
-    validations:
-      required: true
-  - type: input
     id: self
     attributes:
       label: Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist).
       placeholder: Link to the desired location
-    validations:
-      required: true
   - type: input
     id: filing
     attributes:
