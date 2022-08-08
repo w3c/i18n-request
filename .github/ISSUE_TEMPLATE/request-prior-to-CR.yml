@@ -37,3 +37,10 @@ body:
   - type: textarea
     attributes:
       label: What has changed since any previous review?
+
+  - type: input
+    id: self
+    attributes:
+      label: Please point to the results of your own self-review
+      description: See https://w3c.github.io/i18n-drafts/techniques/shortchecklist.
+      placeholder: Link to the desired location
