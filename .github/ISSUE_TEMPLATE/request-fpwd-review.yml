@@ -41,6 +41,10 @@ body:
     id: self
     attributes:
       label: Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist).
+  - type: input
+    id: filing
+    attributes:
+      label: Where and how should the i18n WG raise issues? (We prefer to use the issue list in your document's repo.)
   - type: textarea
     attributes:
       label: Other comments
