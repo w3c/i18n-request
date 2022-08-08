@@ -8,8 +8,6 @@ body:
     attributes:
       value: |
         Note that the i18n WG prefers groups to run a self-review around the time of FPWD. Let us know when you have done it. Get advice on how to do that at https://www.w3.org/International/review-request#selfreview.
-        If you still want us to review your spec, please provide the information below.
-        In the issue title above add the document name followed by the date of this request.
   - type: input
     id: spec-name
     attributes:
