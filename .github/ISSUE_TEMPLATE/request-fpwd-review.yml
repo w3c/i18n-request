@@ -41,6 +41,7 @@ body:
     attributes:
       label: Where and how should the i18n WG raise issues?
       description: We prefer to use the issue list in your document's repo.
+      placeholder: Link to the desired location
   - type: input
     id: explainer
     attributes:
