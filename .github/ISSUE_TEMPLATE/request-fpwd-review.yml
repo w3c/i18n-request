@@ -1,17 +1,19 @@
-name: "Request a review of a FPWD"
-description: Use this if you are approaching or have just passed FPWD.
-title: Document_name 2020-mm-dd
-labels: [ FPWD, "REVIEW REQUESTED", pending ]
+name: "(test) Request a check of a self-review"
+description: If you have completed a self-review, use this form to request that i18n check it out.
+title: Spec_name 2020-mm-dd
+labels: [ "REVIEW REQUESTED", SR, pending ]
 assignees: [ ]
 body:
   - type: markdown
     attributes:
       value: |
-        This is a test.
+        We have conducted a self-review of our spec:
+        some text can go here
+        ....
   - type: input
     id: spec-name
     attributes:
-      label: Name of your specification
+      label: Name of specification
       description: Copy and paste title of your specification
       placeholder: Name of specification
     validations:
@@ -19,33 +21,22 @@ body:
   - type: input
     id: spec-url
     attributes:
-      label: URL of your specification
+      label: URL of specification
       placeholder: https://www.w3.org/TR/...
+    validations:
+      required: true
+  - type: input
+    id: repo-issue
+    attributes:
+      label: URL for the issue
+      placeholder: https://github.com/w3c/..../issues
     validations:
       required: true
   - type: input
     id: date
     attributes:
       label: Do you need a reply by a particular date?
-      description: If so, add the date here
-  - type: input
-    id: self
-    attributes:
-      label: Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist).
-      description: If so, add the date here
-   - type: input
-    id: filing
-    attributes:
-      label: Where and how should the i18n WG raise issues? (We prefer to use the issue list in your document's repo.)
-      placeholder: Link to the location
-    validations:
-      required: true
-   - type: input
-    id: self
-    attributes:
-      label: Pointer to any explainer for the spec.
-       placeholder: Add a URL
- - type: textarea
+      description: If any date, type here
+  - type: textarea
     attributes:
       label: Other comments
-
