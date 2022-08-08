@@ -40,11 +40,6 @@ body:
     attributes:
       label: Where and how should the i18n WG raise issues?
       description: We prefer to use the issue list in your document's repo.
-  - type: input
-    id: filing
-    attributes:
-      label: Pointer to any explainer for the spec
-      placeholder: Add a URL.
   - type: textarea
     attributes:
       label: Other comments
