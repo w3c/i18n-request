@@ -1,0 +1,40 @@
+name: "Request a check of a self-review"
+description: If you have completed a self-review, use this form to ask the i18n WG to check it out.
+title: Spec_name 2020-mm-dd
+labels: [ "REVIEW REQUESTED", SR, pending ]
+assignees: [ ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the [Short i18n review checklist page](https://www.w3.org/International/i18n-drafts/techniques/shortchecklist) to generate a report.  Add the results to an issue in your repo. Use [Internationalization Best Practices for Spec Developers](https://www.w3.org/TR/international-specs/#ghChecklist) to report more details for relevant topics. Then provide the following information.
+  - type: input
+    id: spec-name
+    attributes:
+      label: Name of your specification
+      description: Copy and paste title of your specification
+      placeholder: Name of specification
+    validations:
+      required: true
+  - type: input
+    id: spec-url
+    attributes:
+      label: URL of your specification
+      placeholder: https://www.w3.org/TR/...
+    validations:
+      required: true
+  - type: input
+    id: repo-issue
+    attributes:
+      label: URL for your results
+      placeholder: Link to an issue in your repo
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Do you need a reply by a particular date?
+      description: If so, add the date here
+  - type: textarea
+    attributes:
+      label: Other comments
