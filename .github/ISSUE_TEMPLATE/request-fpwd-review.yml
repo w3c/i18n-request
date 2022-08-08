@@ -41,6 +41,9 @@ body:
     id: self
     attributes:
       label: Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist).
+      placeholder: Link to the desired location
+    validations:
+      required: true
   - type: input
     id: filing
     attributes:
