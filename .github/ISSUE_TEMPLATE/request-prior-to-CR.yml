@@ -31,5 +31,3 @@ body:
     attributes:
       label: When does the review need to be finished?
       description: This could be tied to your upcoming transition, or some other date. NOTE: You will need to also allow time for discussion of issues arising before the actual transition date.
-    validations:
-      required: true
