@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         Note that the i18n WG prefers groups to run a self-review around the time of FPWD. Let us know when you have done it. Get advice on how to do that at XYZ
-        ....
+        If you still want us to review your spec, please provide the information below.
   - type: input
     id: spec-name
     attributes:
