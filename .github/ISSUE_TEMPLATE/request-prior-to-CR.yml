@@ -1,0 +1,56 @@
+name: "Request review for a WD that is moving to CR soon"
+description: Use this if you have a transition date coming up, and need to get a final review.
+title: Document_name    2020-mm-dd > 2020-mm-dd
+labels: [ "REVIEW REQUESTED", LC, pending ]
+assignees: [ ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        In the issue title above add the document name followed by the date of this request, then the date of your proposed deadline for comments.
+        Then provide the following information.
+  - type: input
+    id: spec-name
+    attributes:
+      label: Name of your specification
+      description: Copy and paste title of your specification
+      placeholder: Name of specification
+    validations:
+      required: true
+  - type: input
+    id: spec-url
+    attributes:
+      label: URL of your specification
+      placeholder: https://www.w3.org/TR/...
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: When does the review need to be finished?
+      description: This could be tied to your upcoming transition, or some other date. NOTE: You will need to also allow time for discussion of issues arising before the actual transition date.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What has changed since any previous review?
+  - type: input
+    id: self
+    attributes:
+      label: Please point to the results of your own self-review
+      description: See https://w3c.github.io/i18n-drafts/techniques/shortchecklist.
+      placeholder: Link to the desired location
+  - type: input
+    id: filing
+    attributes:
+      label: Where and how should the i18n WG raise issues?
+      description: We prefer to use the issue list in your document's repo.
+      placeholder: Link to the desired location
+  - type: input
+    id: explainer
+    attributes:
+      label: Pointer to any explainer for the spec
+      placeholder: Add a URL.
+  - type: textarea
+    attributes:
+      label: Other comments
