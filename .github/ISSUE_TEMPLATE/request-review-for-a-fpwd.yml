@@ -53,7 +53,7 @@ body:
     id: self
     attributes:
       label: Pointer to any explainer for the spec.
-       placeholder: Add a URL
+      placeholder: Add a URL
   - type: textarea
     attributes:
       label: Other comments
