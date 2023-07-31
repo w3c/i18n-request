@@ -38,7 +38,7 @@ body:
       label: Do you need a reply by a particular date?
       description: If so, add the date here
   - type: input
-    id: self
+    id: self-review-issue
     attributes:
       label: Please point to the results of your own self-review (see https://w3c.github.io/i18n-drafts/techniques/shortchecklist).
       description: If so, add the date here
@@ -50,7 +50,7 @@ body:
     validations:
       required: true
   - type: input
-    id: self
+    id: self-explainer
     attributes:
       label: Pointer to any explainer for the spec.
       placeholder: Add a URL
