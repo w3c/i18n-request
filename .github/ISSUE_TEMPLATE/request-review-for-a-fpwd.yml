@@ -25,6 +25,13 @@ body:
       placeholder: https://www.w3.org/TR/...
     validations:
       required: true
+  - type: checkboxes
+    id: spec-i18n-section
+    attributes:
+      label: Does your specification include an Internationalization Considerations section?
+      description: If your specification includes an [Internationalization Considerations section](https://www.w3.org/TR/international-specs/#I18N_Considerations), mark this checkbox.
+      options:
+        - label: My specification includes an Internationalization Considerations section
   - type: input
     id: date
     attributes:
