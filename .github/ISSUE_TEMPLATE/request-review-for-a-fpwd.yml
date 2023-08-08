@@ -1,4 +1,4 @@
-name: "Request review of a FPWD"
+name: "Request review for a FPWD"
 description: Use this if you are approaching or have just passed FPWD.
 title: Document_name    2020-mm-dd
 labels: [ FPWD, "REVIEW REQUESTED", pending ]
