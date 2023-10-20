@@ -1,6 +1,6 @@
 name: "Request review for a spec already in CR"
 description: If your spec is already in CR, use this form.
-title: Document_name    2020-mm-dd > 2020-mm-dd
+title: Document_name    2023-mm-dd > 2023-mm-dd
 labels: [ "REVIEW REQUESTED", CR, pending ]
 assignees: [ ]
 body:
