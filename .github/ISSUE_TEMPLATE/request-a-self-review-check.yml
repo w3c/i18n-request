@@ -7,7 +7,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        You can complete a self-review at any stage of the spec, but we recommend doing it before FPWD because considering internationalization from the beginning can lower the development cost.
+        You can complete a self-review at any time.
+        We recommend doing one as early as possible: even before FPWD, if possible.
+        In our experience, early review helps avoid surprises,
+        design changes, painful refactoring, 
+        and other delays stemming from the horizontal review process
+        when seeking advancement of the specification later.
         Use the [Short i18n review checklist page](https://www.w3.org/International/i18n-drafts/techniques/shortchecklist) to generate a report.  Add the results to an issue in your repo. Use [Internationalization Best Practices for Spec Developers](https://www.w3.org/TR/international-specs/#ghChecklist) to report more details for relevant topics. Then provide the following information.
   - type: input
     id: spec-name
